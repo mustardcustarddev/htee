@@ -1,0 +1,39 @@
+/**
+ * Any CSS included here will be global. The classic template
+ * bundles Infima by default. Infima is a CSS framework designed to
+ * work well for content-centric websites.
+ */
+
+/* mq brand: pink #ec4899. Light-mode primary is a deepened, AA-accessible
+   shade of the same hue (#ec4899 alone is only 3.53:1 on white); dark-mode
+   primary uses the true brand hex, which reads at 4.88:1 on the dark bg. */
+:root {
+  --ifm-color-primary: #db2777;
+  --ifm-color-primary-dark: #d61a6e;
+  --ifm-color-primary-darker: #d4136a;
+  --ifm-color-primary-darkest: #cd005d;
+  --ifm-color-primary-light: #e0347f;
+  --ifm-color-primary-lighter: #e23b84;
+  --ifm-color-primary-lightest: #e94f90;
+  --ifm-code-font-size: 95%;
+  --docusaurus-highlighted-code-line-bg: rgba(219, 39, 119, 0.1);
+}
+
+/* For readability concerns, you should choose a lighter palette in dark mode. */
+[data-theme='dark'] {
+  --ifm-color-primary: #ec4899;
+  --ifm-color-primary-dark: #e83589;
+  --ifm-color-primary-darker: #e62b81;
+  --ifm-color-primary-darkest: #e10e69;
+  --ifm-color-primary-light: #f05ba9;
+  --ifm-color-primary-lighter: #f95ead;
+  --ifm-color-primary-lightest: #ff63b8;
+  --docusaurus-highlighted-code-line-bg: rgba(236, 72, 153, 0.2);
+}
+
+/* The primary-style navbar (solid pink, set via themeConfig.navbar.style)
+   should only be solid pink in light mode. In dark mode it drops back to
+   the standard dark surface color instead of staying pink. */
+[data-theme='dark'] .navbar--primary {
+  --ifm-navbar-background-color: var(--ifm-background-color);
+}
