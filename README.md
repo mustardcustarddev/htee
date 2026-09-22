@@ -1,6 +1,5 @@
 # htee
 
-[![Static Badge](https://img.shields.io/badge/Nutshell_Engineering-Internal-green?logo=okta)](https://github.com/search?q=org%3ANutshellEngineering+topic%3Ainternal&type=repositories)
 [![Apache License 2.0](https://img.shields.io/:license-Apache%20License%202.0-blue.svg?style=shield)](https://github.com/NutshellEngineering/htee/blob/main/LICENSE.md)
 
 Flexible, familiar HTTP client that makes navigating APIs delightfully simple.
