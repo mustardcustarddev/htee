@@ -12,7 +12,7 @@ import (
 	"os"
 	"strings"
 
-	"app.getnutshell/htee/internal/auth"
+	"github.com/mustardcustarddev/htee/internal/auth"
 )
 
 // TLSOptions configures BuildTLSConfig, one field per SSL-group flag.

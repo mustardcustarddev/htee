@@ -5,8 +5,8 @@ import type * as Preset from '@docusaurus/preset-classic';
 // This runs in Node.js - Don't use client-side code here (browser APIs, JSX...)
 
 const config: Config = {
-  title: 'mq',
-  tagline: 'Simple querying for markdown.',
+  title: 'ht',
+  tagline: 'Flexible, familiar HTTP client that makes navigating APIs delightfully simple.',
   favicon: 'img/favicon.ico',
 
   future: {
@@ -14,11 +14,11 @@ const config: Config = {
   },
 
   url: 'https://NutshellEngineering.github.io',
-  baseUrl: '/markdown-query/',
+  baseUrl: '/htee/',
 
   // GitHub pages deployment config.
   organizationName: 'NutshellEngineering',
-  projectName: 'markdown-query',
+  projectName: 'htee',
 
   onBrokenLinks: 'throw',
 
@@ -32,11 +32,11 @@ const config: Config = {
       'classic',
       {
         docs: {
-          path: '../doc/user',
+          path: '../pages',
           routeBasePath: '/docs',
           sidebarPath: './sidebars.ts',
           editUrl:
-            'https://github.com/NutshellEngineering/markdown-query/edit/main/doc/user/',
+            'https://github.com/NutshellEngineering/htee/edit/main/doc/user/pages/',
         },
         blog: false,
         theme: {
@@ -51,7 +51,7 @@ const config: Config = {
       respectPrefersColorScheme: true,
     },
     navbar: {
-      title: 'markdown-query',
+      title: 'htee',
       style: 'primary',
       items: [
         {
@@ -60,7 +60,7 @@ const config: Config = {
           position: 'left',
         },
         {
-          href: 'https://github.com/NutshellEngineering/markdown-query',
+          href: 'https://github.com/NutshellEngineering/htee',
           label: 'GitHub',
           position: 'right',
         },
@@ -73,8 +73,6 @@ const config: Config = {
           title: 'Docs',
           items: [
             {label: 'Introduction', to: '/docs/'},
-            {label: 'Query Language', to: '/docs/query-language'},
-            {label: 'Examples', to: '/docs/examples'},
           ],
         },
         {
@@ -82,7 +80,7 @@ const config: Config = {
           items: [
             {
               label: 'GitHub',
-              href: 'https://github.com/NutshellEngineering/markdown-query',
+              href: 'https://github.com/NutshellEngineering/htee',
             },
           ],
         },

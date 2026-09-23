@@ -8,7 +8,7 @@ import (
 	"os"
 	"path/filepath"
 
-	"app.getnutshell/htee/internal/itemsyntax"
+	"github.com/mustardcustarddev/htee/internal/itemsyntax"
 )
 
 // buildMultipartBody writes ri.MultipartData (plain fields and file

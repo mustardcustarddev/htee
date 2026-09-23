@@ -4,7 +4,7 @@ import (
 	"fmt"
 	"net/http"
 
-	"app.getnutshell/htee/internal/itemsyntax"
+	"github.com/mustardcustarddev/htee/internal/itemsyntax"
 )
 
 // Version is the client version reported in the User-Agent header.

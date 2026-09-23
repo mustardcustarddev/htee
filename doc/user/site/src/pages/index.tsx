@@ -14,7 +14,7 @@ function CtaButtons() {
       </Link>
       <Link
         className={clsx('button button--lg', styles.ctaSecondary)}
-        href="https://github.com/NutshellEngineering/markdown-query">
+        href="https://github.com/NutshellEngineering/htee">
         View on GitHub
       </Link>
     </div>
@@ -38,14 +38,25 @@ function TerminalIcon() {
   );
 }
 
+function HeroWatermark() {
+  return (
+    <span className={styles.heroWatermark} aria-hidden="true">
+      ://
+    </span>
+  );
+}
+
 function HomepageHeader() {
   const {siteConfig} = useDocusaurusContext();
   return (
     <header className={clsx('hero hero--primary', styles.heroBanner)}>
-      <div className="container">
+      <div className={styles.heroWatermarkPane}>
+        <HeroWatermark />
+      </div>
+      <div className={clsx('container', styles.heroContent)}>
         <div className={styles.heroTitleRow}>
           <TerminalIcon />
-          <h1 className={styles.heroTitle}>mq</h1>
+          <h1 className={styles.heroTitle}>ht</h1>
         </div>
         <p className={styles.heroTagline}>{siteConfig.tagline}</p>
         <CtaButtons />

@@ -1,5 +1,5 @@
 /*
- * Copyright (c) 2026 - present, Nutshell PTD.
+ * Copyright (c) 2026 - present, Mustard Custard.
  *
  * Licensed under the Apache License, Version 2.0 (the "License");
  * you may not use this file except in compliance with the License.
@@ -21,7 +21,7 @@ package main
 import (
 	"os"
 
-	"app.getnutshell/htee/internal/cli"
+	"github.com/mustardcustarddev/htee/internal/cli"
 )
 
 func main() {

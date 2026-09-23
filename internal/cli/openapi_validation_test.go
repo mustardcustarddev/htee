@@ -9,7 +9,7 @@ import (
 	"strings"
 	"testing"
 
-	"app.getnutshell/htee/internal/config"
+	"github.com/mustardcustarddev/htee/internal/config"
 )
 
 // writeProjectWithSpec writes .ht/conf.toml (pointing at a spec file next

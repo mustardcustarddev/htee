@@ -1,6 +1,6 @@
 # markdown-query docs site
 
-The [markdown-query](https://github.com/NutshellEngineering/markdown-query) documentation site (for the `mq` CLI), built with [Docusaurus](https://docusaurus.io/). Content lives under `../doc/user/`, not the Docusaurus default `docs/`.
+The [htee](https://github.com/mustardcustarddev/htee) documentation site (for the `ht` CLI), built with [Docusaurus](https://docusaurus.io/). Content lives under `../doc/user/`, not the Docusaurus default `docs/`.
 
 ## Installation
 
@@ -28,4 +28,4 @@ This command generates static content into the `build` directory and can be serv
 
 ## Deployment
 
-Deployment to GitHub Pages is automated via `.github/workflows/deploy-docs.yml`: pushes to `main` that touch `website/**` or `doc/user/**` trigger a build and publish through GitHub Actions (no `gh-pages` branch or manual `npm run deploy` needed).
+Deployment to GitHub Pages is automated via `.github/workflows/deploy-site.yml`.

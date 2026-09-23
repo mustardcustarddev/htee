@@ -5,7 +5,7 @@ import (
 	"strings"
 	"testing"
 
-	"app.getnutshell/htee/internal/openapi"
+	"github.com/mustardcustarddev/htee/internal/openapi"
 )
 
 func TestRenderValidationRouteNotFound(t *testing.T) {

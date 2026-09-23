@@ -4,7 +4,7 @@ import (
 	"net/url"
 	"strings"
 
-	"app.getnutshell/htee/internal/itemsyntax"
+	"github.com/mustardcustarddev/htee/internal/itemsyntax"
 )
 
 // applyQueryParams appends `==`/`==@` query items to an existing raw query

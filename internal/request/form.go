@@ -3,8 +3,8 @@ package request
 import (
 	"net/url"
 
-	"app.getnutshell/htee/internal/itemsyntax"
-	"app.getnutshell/htee/internal/ordered"
+	"github.com/mustardcustarddev/htee/internal/itemsyntax"
+	"github.com/mustardcustarddev/htee/internal/ordered"
 )
 
 // buildFormBody url-encodes ri.Data (an *ordered.Map of string/primitive

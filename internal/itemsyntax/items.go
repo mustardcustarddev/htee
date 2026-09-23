@@ -6,8 +6,8 @@ import (
 	"strconv"
 	"strings"
 
-	"app.getnutshell/htee/internal/itemsyntax/nestedjson"
-	"app.getnutshell/htee/internal/ordered"
+	"github.com/mustardcustarddev/htee/internal/itemsyntax/nestedjson"
+	"github.com/mustardcustarddev/htee/internal/ordered"
 )
 
 // FileField is a file upload item: `field@path` or `field@path;type=mime`.

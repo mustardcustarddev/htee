@@ -4,7 +4,7 @@ import (
 	"encoding/json"
 	"testing"
 
-	"app.getnutshell/htee/internal/ordered"
+	"github.com/mustardcustarddev/htee/internal/ordered"
 )
 
 func parseAll(t *testing.T, raws ...string) []KeyValueArg {

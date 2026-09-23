@@ -11,8 +11,8 @@ import (
 	"os"
 	"path/filepath"
 
-	"app.getnutshell/htee/internal/itemsyntax"
-	"app.getnutshell/htee/internal/ordered"
+	"github.com/mustardcustarddev/htee/internal/itemsyntax"
+	"github.com/mustardcustarddev/htee/internal/ordered"
 )
 
 // BodyMode identifies how the request body was constructed.

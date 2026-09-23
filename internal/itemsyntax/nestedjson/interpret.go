@@ -4,7 +4,7 @@ import (
 	"encoding/json"
 	"strings"
 
-	"app.getnutshell/htee/internal/ordered"
+	"github.com/mustardcustarddev/htee/internal/ordered"
 )
 
 // Array is a mutable, shared handle to a JSON array being built up across

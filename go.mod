@@ -1,4 +1,4 @@
-module app.getnutshell/htee
+module github.com/mustardcustarddev/htee
 
 go 1.25.0
 

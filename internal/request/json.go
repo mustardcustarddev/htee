@@ -3,7 +3,7 @@ package request
 import (
 	"encoding/json"
 
-	"app.getnutshell/htee/internal/ordered"
+	"github.com/mustardcustarddev/htee/internal/ordered"
 )
 
 // buildJSONBody marshals ri.Data to JSON. An empty object (no data items at

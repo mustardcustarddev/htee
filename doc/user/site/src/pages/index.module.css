@@ -1,6 +1,53 @@
 .heroBanner {
   padding: 6rem 0;
   text-align: left;
+  position: relative;
+  overflow: hidden;
+}
+
+.heroContent {
+  position: relative;
+  z-index: 1;
+}
+
+.heroWatermarkPane {
+  display: none;
+}
+
+/* The watermark half only appears at Docusaurus's desktop breakpoint
+   (996px, the same threshold the navbar uses to switch out of its mobile
+   layout) - below that there isn't room to split the header in two.
+
+   The pane is taken out of normal flow (absolute, confined to the right
+   half of .heroBanner) so the watermark's size never affects the header's
+   height - the header stays exactly as tall as the left-hand content
+   needs it to be, and an oversized watermark simply bleeds off the top/
+   bottom/right and gets clipped by .heroBanner's overflow: hidden, the
+   same way relay.dev's hero graphic bleeds past its fixed-height band
+   instead of growing it. */
+@media (min-width: 996px) {
+  .heroWatermarkPane {
+    display: flex;
+    position: absolute;
+    inset: 0;
+    left: 50%;
+    align-items: center;
+    justify-content: center;
+    pointer-events: none;
+  }
+}
+
+.heroWatermark {
+  font-size: clamp(18rem, 36vw, 54rem);
+  font-weight: 800;
+  line-height: 1.2;
+  padding: 0.1em 0;
+  color: transparent;
+  -webkit-text-stroke: 0.06em #bef264;
+  text-stroke: 0.06em #bef264;
+  opacity: 0.18;
+  pointer-events: none;
+  user-select: none;
 }
 
 /* Dark mode drops the solid-pink hero--primary treatment in favor of a

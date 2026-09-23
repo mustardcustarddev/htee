@@ -4,7 +4,7 @@ import (
 	"encoding/json"
 	"testing"
 
-	"app.getnutshell/htee/internal/ordered"
+	"github.com/mustardcustarddev/htee/internal/ordered"
 )
 
 func mustJSON(t *testing.T, v any) string {

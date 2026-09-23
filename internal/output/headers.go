@@ -4,7 +4,7 @@ import (
 	"sort"
 	"strings"
 
-	"app.getnutshell/htee/internal/message"
+	"github.com/mustardcustarddev/htee/internal/message"
 )
 
 // sortHeaders stably sorts headers by name, retaining the relative order

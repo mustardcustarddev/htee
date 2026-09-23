@@ -1,6 +1,6 @@
 # htee
 
-[![Apache License 2.0](https://img.shields.io/:license-Apache%20License%202.0-blue.svg?style=shield)](https://github.com/NutshellEngineering/htee/blob/main/LICENSE.md)
+[![Apache License 2.0](https://img.shields.io/:license-Apache%20License%202.0-blue.svg?style=shield)](https://github.com/mustardcustarddev/htee/blob/main/LICENSE.md)
 
 Flexible, familiar HTTP client that makes navigating APIs delightfully simple.
 

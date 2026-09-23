@@ -17,15 +17,15 @@ import (
 	"github.com/spf13/viper"
 	"golang.org/x/term"
 
-	"app.getnutshell/htee/internal/auth"
-	"app.getnutshell/htee/internal/config"
-	"app.getnutshell/htee/internal/itemsyntax"
-	"app.getnutshell/htee/internal/message"
-	"app.getnutshell/htee/internal/netrc"
-	"app.getnutshell/htee/internal/openapi"
-	"app.getnutshell/htee/internal/output"
-	"app.getnutshell/htee/internal/request"
-	"app.getnutshell/htee/internal/transport"
+	"github.com/mustardcustarddev/htee/internal/auth"
+	"github.com/mustardcustarddev/htee/internal/config"
+	"github.com/mustardcustarddev/htee/internal/itemsyntax"
+	"github.com/mustardcustarddev/htee/internal/message"
+	"github.com/mustardcustarddev/htee/internal/netrc"
+	"github.com/mustardcustarddev/htee/internal/openapi"
+	"github.com/mustardcustarddev/htee/internal/output"
+	"github.com/mustardcustarddev/htee/internal/request"
+	"github.com/mustardcustarddev/htee/internal/transport"
 )
 
 // Config selects the command's method-presetting behavior.

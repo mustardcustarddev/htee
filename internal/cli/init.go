@@ -6,9 +6,9 @@ import (
 
 	"github.com/spf13/cobra"
 
-	"app.getnutshell/htee/internal/config"
-	"app.getnutshell/htee/internal/openapi"
-	"app.getnutshell/htee/internal/tui"
+	"github.com/mustardcustarddev/htee/internal/config"
+	"github.com/mustardcustarddev/htee/internal/openapi"
+	"github.com/mustardcustarddev/htee/internal/tui"
 )
 
 // newInitCommand builds the `ht init` subcommand: an interactive wizard

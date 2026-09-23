@@ -10,7 +10,7 @@ import (
 	"github.com/charmbracelet/bubbles/textinput"
 	tea "github.com/charmbracelet/bubbletea"
 
-	"app.getnutshell/htee/internal/config"
+	"github.com/mustardcustarddev/htee/internal/config"
 )
 
 type step int

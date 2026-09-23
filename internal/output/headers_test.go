@@ -3,7 +3,7 @@ package output
 import (
 	"testing"
 
-	"app.getnutshell/htee/internal/message"
+	"github.com/mustardcustarddev/htee/internal/message"
 )
 
 func TestSortHeadersStable(t *testing.T) {

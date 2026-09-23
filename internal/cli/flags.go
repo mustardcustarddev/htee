@@ -3,7 +3,7 @@ package cli
 import (
 	"github.com/spf13/cobra"
 
-	"app.getnutshell/htee/internal/output"
+	"github.com/mustardcustarddev/htee/internal/output"
 )
 
 // sharedFlags holds the pflag-bound values for the ht command, mirroring

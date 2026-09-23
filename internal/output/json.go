@@ -6,7 +6,7 @@ import (
 	"sort"
 	"strings"
 
-	"app.getnutshell/htee/internal/ordered"
+	"github.com/mustardcustarddev/htee/internal/ordered"
 )
 
 // formatJSONBody re-indents (and optionally key-sorts) a JSON body,

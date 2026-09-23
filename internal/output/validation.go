@@ -4,8 +4,8 @@ import (
 	"fmt"
 	"io"
 
-	"app.getnutshell/htee/internal/openapi"
-	"app.getnutshell/htee/internal/theme"
+	"github.com/mustardcustarddev/htee/internal/openapi"
+	"github.com/mustardcustarddev/htee/internal/theme"
 )
 
 // RenderValidation writes a short note about how v's request/response

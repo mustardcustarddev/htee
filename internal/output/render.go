@@ -5,7 +5,7 @@ import (
 	"io"
 	"strings"
 
-	"app.getnutshell/htee/internal/message"
+	"github.com/mustardcustarddev/htee/internal/message"
 )
 
 // RenderRequest writes the request line, headers, and body per flags,

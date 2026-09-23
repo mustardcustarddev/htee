@@ -7,7 +7,7 @@ import (
 	"path/filepath"
 	"testing"
 
-	"app.getnutshell/htee/internal/itemsyntax"
+	"github.com/mustardcustarddev/htee/internal/itemsyntax"
 )
 
 func items(t *testing.T, raws ...string) []itemsyntax.KeyValueArg {
